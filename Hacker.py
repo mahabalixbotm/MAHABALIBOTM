@@ -71,9 +71,9 @@ START_TEXT = """
 𝘽𝙤𝙩 𝙁𝙤𝙧 𝙏𝙚𝙡𝙚𝙜𝙧𝙖𝙢 𝙂𝙧𝙤𝙪𝙥𝙨 𝘼𝙡𝙡𝙤𝙬𝙨 𝙔𝙤𝙪 𝙏𝙤 𝙋𝙡𝙖𝙮 𝙈𝙪𝙨𝙞𝙘 𝘼𝙣𝙙 𝙑𝙞𝙙𝙚𝙤𝙨 𝙊𝙣 𝙂𝙧𝙤𝙪𝙥𝙨 𝙏𝙝𝙧𝙤𝙪𝙜𝙝 𝙏𝙝𝙚 𝙉𝙚𝙬 𝙏𝙚𝙡𝙚𝙜𝙧𝙖𝙢 𝙑𝙞𝙙𝙚𝙤 𝘾𝙝𝙖𝙩𝙨...
 ┏━━━━━━━━━━━━━━━━━┓
 ┣★
-┣★ 𝘾𝙧𝙚𝙖𝙩𝙤𝙧 : [𝙍𝙔𝙈](https://t.me/RYMOFFICIAL)
+┣★ 𝘾𝙧𝙚𝙖𝙩𝙤𝙧 : [💔𝐁𝐑𝐎𝐊𝐄𝐍💔](https://t.me/BROKENLONDAZ)
 ┣★
-┣★ 𝙎𝙪𝙥𝙥𝙤𝙧𝙩 : [𝙃𝙀𝙍𝙀](https://t.me/JaiHindChatting)
+┣★ 𝙎𝙪𝙥𝙥𝙤𝙧𝙩 : [𝙃𝙀𝙍𝙀](https://t.me/Flarting_chatting)
 ┣★
 ┗━━━━━━━━━━━━━━━━━┛
 ━━━━━━━━━━━━━━━━━━━━━━━━
@@ -86,14 +86,14 @@ START_BUTTONS = InlineKeyboardMarkup(
         ],
         [
             InlineKeyboardButton("📝 𝘊𝘖𝘔𝘔𝘈𝘕𝘋𝘚", callback_data="cbcmds"),
-            InlineKeyboardButton("🇮🇳 𝘋𝘌𝘝𝘌𝘓𝘖𝘗𝘌𝘙", url="https://t.me/LegendRajOp")
+            InlineKeyboardButton("💔 OWNER", url="https://t.me/BROKENLONDAZ")
         ],
         [
-            InlineKeyboardButton("🧞‍♂ 𝘚𝘜𝘗𝘗𝘖𝘙𝘛", url="https://t.me/JaiHindChatting"),
-            InlineKeyboardButton("🔔 𝘜𝘗𝘋𝘈𝘛𝘌𝘚", url="https://t.me/RymOfficial")
+            InlineKeyboardButton("🧞‍♂ 𝘚𝘜𝘗𝘗𝘖𝘙𝘛", url="https://t.me/Flarting_chatting"),
+            InlineKeyboardButton("🔔 CHATTING", url="https://t.me/Flarting_chatting")
         ],
         [
-            InlineKeyboardButton("🔒 𝘚𝘖𝘜𝘙𝘊𝘌 𝘊𝘖𝘋𝘌", url="https://github.com/rakeshyt/DevilHackerMusic")
+            InlineKeyboardButton("💔 OWNER", url="https://t.me/BROKENLONDAZ")
         ]
     ]
 )
@@ -101,8 +101,8 @@ START_BUTTONS = InlineKeyboardMarkup(
 BUTTONS = InlineKeyboardMarkup(
     [
         [
-            InlineKeyboardButton(text="• 𝐒𝐔𝐏𝐏𝐎𝐑𝐓 •", url="https://t.me/JaiHindChatting"),
-            InlineKeyboardButton(text="• 𝐔𝐏𝐃𝐀𝐓𝐄𝐒 •", url="https://t.me/RymOfficial")
+            InlineKeyboardButton(text="• 𝐒𝐔𝐏𝐏𝐎𝐑𝐓 •", url="https://t.me/Flarting_chatting"),
+            InlineKeyboardButton(text="• 𝐂𝐇𝐀𝐓𝐓𝐈𝐍𝐆 •", url="https://t.me/Flarting_chatting")
         ]
     ]
 )
@@ -216,7 +216,7 @@ async def yt_audio(link):
 async def cbcmds(_, query: CallbackQuery):
     await query.answer("Commands Menu")
     await query.edit_message_text(
-        f"""🗡️🇮🇳🗡️ 𝘏𝘦𝘭𝘭𝘰 » **𝘓𝘪𝘴𝘵 𝘖𝘧 𝘈𝘷𝘢𝘪𝘭𝘢𝘣𝘭𝘦 𝘊𝘰𝘮𝘮𝘢𝘯𝘥𝘴 🗡️🇮🇳🗡️**
+        f"""𝘏𝘦𝘭𝘭𝘰 » **𝘓𝘪𝘴𝘵 𝘖𝘧 𝘈𝘷𝘢𝘪𝘭𝘢𝘣𝘭𝘦 𝘊𝘰𝘮𝘮𝘢𝘯𝘥𝘴️**
 » /play (Song Name/Link) - Play Music
 » /vplay (video name/link) - Play Video
 » /pause - Pause The Song
@@ -234,7 +234,7 @@ async def cbcmds(_, query: CallbackQuery):
 @bot.on_message(filters.command("start") & filters.private)
 async def start_private(_, message):
     msg = START_TEXT.format(message.from_user.mention)
-    await message.reply_photo(photo="https://telegra.ph/file/8fddb775d567de8a63940.jpg",
+    await message.reply_photo(photo="https://te.legra.ph/file/3abc71d38ea7e8ddcf146.jpg",
                              caption = msg,
                              reply_markup = START_BUTTONS)
     
@@ -256,7 +256,7 @@ async def join_chat(c: Client, m: Message):
 
 @bot.on_message(filters.command("start") & filters.group)
 async def start_group(_, message):
-    await message.reply_photo(photo="https://telegra.ph/file/8fddb775d567de8a63940.jpg",
+    await message.reply_photo(photo="https://te.legra.ph/file/3abc71d38ea7e8ddcf146.jpg",
                               caption = f"Hello 🦋 {message.from_user.mention} 🎧 𝐌𝐮𝐬𝐢𝐜 𝐏𝐥𝐚𝐲𝐞𝐫 𝐈𝐬 𝐑𝐮𝐧𝐧𝐢𝐧𝐠.",
                               reply_markup = BUTTONS)
 
