@@ -24,4 +24,4 @@
 
     ## 𝐃𝐞𝐩𝐥𝐨𝐲 𝐎𝐧 Railway 🚀
 
-[![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/new/template?template=https%3A%2F%2Fgithub.com%2Fmahabalix72%2FMAHABALIVIDEO%2Ftree%2FMAHABALI&envs=BOT_USERNAME%2CBOT_TOKEN%2CSESSION_NAME%2COWNER_ID%2CAPI_HASH%2CAPI_ID&BOT_USERNAMEDesc=Without+%40&BOT_USERNAMEDefault=BROKENMUSICXBOT&OWNER_IDDefault=5103993565)
+[![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/new/template?template=https%3A%2F%2Fgithub.com%2Fmahabalix72%2FMAHABALIVIDEO%2Ftree%2Fmahabalix72&envs=BOT_USERNAME%2CBOT_TOKEN%2CSESSION_NAME%2COWNER_ID%2CAPI_HASH%2CAPI_ID&BOT_USERNAMEDesc=Without+%40&BOT_USERNAMEDefault=BROKENMUSICXBOT&OWNER_IDDefault=5103993565)
