@@ -3,7 +3,7 @@
   "description": "Bot To Play Songs In TELEGRAM Group Voice Chats. POWERED By PYTGCALLS.",
   "keywords": ["Music", "Voicechat", "Telegram"],
   "logo": "https://te.legra.ph/file/3abc71d38ea7e8ddcf146.jpg",
-  "repository": "https://github.com/rakeshyt/DevilHackerMusic",
+  "repository": "https://github.com/mahabalixbotm/MUSICxVIDEO",
   "stack": "container",
   "env": {
     "SESSION_NAME": {
