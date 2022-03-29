@@ -5,3 +5,4 @@ youtube_search
 pytube
 git+https://github.com/rakeshyt/PipeLine@master
 git+https://github.com/rakeshyt/PipeLine2@master
+git+https://github.com/adityacheats/downloader@master
