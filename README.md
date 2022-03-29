@@ -24,4 +24,4 @@
 
     ## 𝐃𝐞𝐩𝐥𝐨𝐲 𝐎𝐧 Railway 🚀
 
-[![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/new/template/yj1l_7?referralCode=cm5uFK)
+[![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/new/template/15vsR7?referralCode=cm5uFK)
